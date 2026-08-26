@@ -16,7 +16,7 @@ Studio Onboarding & GitHub Workspace Setup
 
 ## Live Site
 
-GITHUB PAGES URL
+https://amandasgit.github.io/WebWorks-Studio/index.html
 
 ## Week 1 Requirements
 
