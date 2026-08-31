@@ -1,0 +1,173 @@
+/* Southtown Plant Co. legacy style sheet
+   Last updated: 08/17/2000
+*/
+#container {
+  width: 94%;
+  max-width: 54rem;
+  margin: auto;
+  border-top: 0.75em #315c3d;
+  border-bottom: 0.75em #315c3d;
+  padding: 0 1.75rem 1.75rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+body {
+  margin: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  background-color: #e8e1c9;
+  color: #333333;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315c3d;
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315c3d;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.logo {
+  width: 270;
+  align-items: center;
+}
+
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 23px;
+  color: #4c5148;
+}
+
+.contact {
+  width: 450;
+  text-align: right;
+  size: 2;
+}
+
+a:hover {
+  color: #993300;
+}
+
+nav {
+  display: block;
+  background-color: #315c3d;
+  height: 34px;
+  text-align: center;
+}
+nav a {
+  color: #ffffff;
+  width: 120;
+  padding: 10px 35px;
+  display: table-cell;
+  text-align: center;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #315c3d;
+}
+
+a:visited {
+  color: #6c4e32;
+}
+
+a:active {
+  color: #993300;
+}
+
+.footertext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  color: #666666;
+}
+
+.footertext a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+}
+
+/* old notes
+.green { color: #315C3D; }
+*/
+
+/* duplicate link rules from later update */
+
+.spc-logo {
+  width: 250;
+  height: 90;
+  border: 0;
+}
+
+.qlink {
+  color: #315c3d;
+  background-color: #efe7ce;
+  float: left;
+  padding: 0px 20px 300px 10px;
+  margin: auto;
+  list-style: none;
+  width: 190;
+}
+
+.services {
+  width: 510;
+  text-align: left;
+}
+
+.special {
+  font-size: 2;
+  background-color: #f4eac8;
+  display: inline;
+}
+.photo {
+  border: 1px solid #9e9475;
+  float: right;
+  vertical-align: top;
+}
+
+.south {
+  width: 330;
+}
+
+.storefront {
+  padding-left: 2%;
+  float: left;
+}
+
+.visitall {
+  background-color: #f4eac8;
+  padding: 12;
+}
+
+.visit {
+  float: inline-start;
+  text-align: left;
+  padding: auto;
+}
+
+.hours {
+  float: inline-end;
+  text-align: right;
+  padding: auto;
+}
+
+.footertext {
+  padding: auto;
+  margin: auto;
+}
