@@ -42,4 +42,4 @@ I tried my best to move most css tags into the css file, I had to find some sema
 Next week I hope that I can manage the layout properly, add a more responsive navigation system, and make the design usable for mobile devices, which I hope to check with my phone.
 I also hope that in this design we can upgrade the visual aspects to more properly help accessibility. I also offset the potted plant image, by having it float on the right side, I hope to figure out a fix, and more responsive way to fix this problem.
 
-Live link:
+Live link: https://amandasgit.github.io/WebWorks-Studio/week02-build-better/index.html
