@@ -42,3 +42,4 @@ CSS updated August of 2026 by Amanda. Built with CSS grid/flexbox.
 Through this I learned of the importance of grid and flexbox when adding responsive layout to our website. This helps our elements and web objects resize to match the size of the browser window, whether it's on a computer or phone. I experimented with both options in this module. Each section reacted differently depending on which I used. I used grid majority of the time as it seemed to be more reliable in getting the desired outcome, but I used flex for the navigation bar, although i'm sure grid would have more reliable and made it look better, I kept the flex version as an example of how to use it incase I wanted to use it again later in the assignment.
 
 Live link:
+https://amandasgit.github.io/WebWorks-Studio/week02-build-better/index.html
