@@ -1,0 +1,200 @@
+/* Southtown Plant Co. legacy style sheet
+   Last updated: 08/17/2000
+*/
+html {
+  background: #efe4d3;
+}
+#container {
+  width: min(92%, 72rem);
+  max-width: 54rem;
+  margin-inline: auto;
+  border-top: 0.75em #315c3d;
+  border-bottom: 0.75em #315c3d;
+  padding: 0 1.75rem 1.75rem;
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-top: 12px solid #315c3d;
+  border-bottom: 12px solid #315c3d;
+}
+
+.header-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+  gap: 5rem;
+  justify-items: auto;
+  align-items: center;
+  grid-template-areas: "box-1 box-2";
+}
+
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4c5148;
+}
+
+.spc-logo {
+  margin: 2rem;
+}
+
+.contact {
+  text-align: right;
+  margin: 2rem;
+}
+
+.nav-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit minmax(6, 1fr));
+  background: #315c3d;
+  text-align: center;
+}
+.nav-item {
+  justify-content: auto;
+  align-content: center;
+  gap: 1fr;
+  color: #ffffff;
+  padding: 0.5rem;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315c3d;
+  font-size: 36px;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #315c3d;
+  font-size: 24px;
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: auto;
+  align-items: center;
+  grid-template-areas: "box-1 box-2";
+}
+.flo-grid {
+  display: flex;
+  justify-content: auto;
+  align-content: center;
+  margin: auto;
+  gap: 0;
+  padding: 25px;
+}
+
+.flower {
+  background-color: #f6f0da;
+  color: #315c3d;
+  border:
+    #666,
+    1px solid;
+  padding: 1rem;
+}
+
+.mid-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+  gap: 1rem;
+  justify-items: left;
+  grid-template-areas: "box-1 box-2 box-2" "box-1 box-3 box-3";
+}
+
+.visit-grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fit minmax(250px, 1fr));
+  gap: 20rem;
+  justify-items: auto;
+  background: #efe4d3;
+  grid-template-areas: "box-1 box-2";
+  margin-bottom: 20px;
+}
+
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin: auto;
+}
+
+.h4l {
+  color: #315c3d;
+  font-weight: bold;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #315c3d;
+}
+
+a:visited {
+  color: #6d5548;
+}
+
+a:hover a:active {
+  color: #993300;
+}
+
+.footertext {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  color: #666666;
+  padding: auto;
+  text-align: center;
+}
+.footertext p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+/* old notes
+.green { color: #315C3D; }
+*/
+
+/* duplicate link rules from later update */
+.qlin {
+  text-decoration: none;
+  list-style-type: none;
+  justify-items: auto;
+  align-items: center;
+}
+.qlink {
+  color: #315c3d;
+  float: left;
+  background: #efe4d3;
+  text-decoration: none;
+  padding-right: 2rem;
+  padding-bottom: 16rem;
+}
+
+.storefront {
+  float: left;
+  padding: auto;
+  margin-right: 5px;
+}
+
+.services {
+  width: 510;
+  text-align: left;
+}
+
+.special {
+  font-size: 2;
+  background-color: #f4eac8;
+  display: inline;
+}
+.photo {
+  border: 1px solid #9e9475;
+  float: right;
+  vertical-align: top;
+}
