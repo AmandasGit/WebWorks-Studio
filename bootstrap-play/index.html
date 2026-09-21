@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <title>Client Designs</title>
+  </head>
+  <body style="background-color: white">
+    <div class="container-fluid">
+      
+      <h1>Client Designs</h1>
+      <div
+        class="alert alert-primary alert-dismissible fade show"
+        role="alert"
+      >
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="alert"
+          aria-label="Close"
+        ></button>
+        <strong>Warning</strong> this site is currently in testing
+      </div>
+      
+      <script>
+        var alertList = document.querySelectorAll(".alert");
+        alertList.forEach(function (alert) {
+          new bootstrap.Alert(alert);
+        });
+      </script>
+      
+
+
+      <div class="row g-3 mt-2">
+        <div class="col-12 col-md-6 col-lg-2">
+          <div class="p-3" style="background-color: tan">
+            <p id="col1" class="m-0"><h1 class="display-5">News</h1>
+              <span class="badge bg-secondary">New</span>
+             In this we're showing possible design choices and components that can be used in the clients site.
+
+            </p>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="p-3" style="background-color: tan">
+            <p id="col2" class="m-0"><h1 class="display-5">Components</h1>
+            using this site, we've explored the possibilities that can be used in your professional site, through this you can pick and choose what can be added to you own.
+           
+          components added to demonstrate on this site:
+          <div class="accordion mt-4" id="accordionList">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Badges
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionList"
+              >
+                <div class="accordion-body">
+                 Theres a "New" Badge applied to the first paragraph.
+                </div>
+              </div>
+<div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="true"
+                  aria-controls="collapseTwo"
+                >
+                  Alert
+                </button>
+              </h2>
+<div
+                id="collapseTwo"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionList"
+              >
+                <div class="accordion-body">
+                 Added a dismissable alert, to notify that the page is still in testing
+                </div>
+            </div>
+          <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="true"
+                  aria-controls="collapseThree"
+                >
+                  Accordion list
+                </button>
+              </h2>
+<div
+                id="collapseThree"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionList"
+              >
+                <div class="accordion-body">
+                 This list, added to help organize the components used.
+                </div>
+            </div>
+            
+
+
+          </div>
+          
+          
+            
+
+           
+          </p>
+          </div>
+        </div>
+       
+          
+        </p>
+        <div class="col-12 col-md-6 offset-md-6 col-lg-3">
+          <div class="p-3" style="background-color: tan">
+            <p d="col3" class="m-0"> <h1 class="display-5">Style</h1>
+              I wasn't sure that if I was suppose able to include css into this so I added the style elements into the html file instead
+              to give a semi appealing visual aspect. 
+
+              Also tested column sizes as seen in the larger view.
+
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

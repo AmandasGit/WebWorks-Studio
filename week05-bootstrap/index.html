@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="en">
+  <head>
+      <meta charset="utf-8" />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+              <title>Cedar & Stone Home Services | San Antonio</title>
+                  <link
+                        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+                              rel="stylesheet"
+                                    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+                                          crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body class="p-4">
+    <!-- WEEK 5 STARTER
+       PROFESSIONAL WORKFLOW:
+       Identify Requirement → Find Bootstrap Pattern → Implement → Adapt → Test
+
+       REQUIRED BOOTSTRAP COMPONENTS:
+       1. Responsive Navbar
+       2. Cards for the service offerings
+
+       ALSO REQUIRED:
+       Bootstrap grid, utilities, responsive behavior, accessibility testing,
+       functional testing, and limited client-specific custom CSS.
+
+       Use official Bootstrap documentation when implementing documented patterns.
+       Do not add components simply because Bootstrap provides them. -->
+
+    <header> 
+      <!-- TODO: Convert this into an appropriate responsive Bootstrap Navbar. -->
+    <div class="container-fluid">
+      <nav id="navbarbg" class="navbar">
+        <a id="page-head" class="navbar-brand ms-5 p-2 text-uppercase text-white" href="index.html" "><strong> Cedar &amp; Stone </strong></a>
+        <nav aria-label="Primary navigation"
+          class="navbar navbar-expand-lg">
+          <ul class="nav me-5 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link rounded text-white" href="#services"
+                >Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded text-white" href="#process"
+                >Our Process</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link rounded text-white" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a id="nav-contact" class="nav-link rounded text-white" href="#contact"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+      </div>
+    </div>
+    </header>
+
+    <main class="p-2">
+      <section id="opener" class="p-4">
+        <div>
+        <!-- TODO: Use the Bootstrap grid for this responsive hero layout. -->
+         <div class="container-fluid">
+      <div class="row">
+        <div class="col-12 col-md-8 col-lg-8">
+            <p id="small-text" class="text-uppercase">Home maintenance without the runaround.</p>
+            <h1 style="font-weight: bold;">
+              One trusted team for the projects that keep your home working.
+            </h1>
+            <p>
+              Cedar &amp; Stone provides dependable home-maintenance and
+              small-project services for San Antonio homeowners who would rather
+              call one reliable team than chase five different contractors.
+            </p>
+            <div>
+              <a class="btn btn-dark"
+                href="#services"
+                role="button">Explore our services</a>
+              
+              <a class="btn btn-outline-dark"
+                href="#contact"
+                role="button">Request a consultation</a>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-4">
+            <img class="rounded"
+              src="images/home-service.svg"
+              alt="Illustration of a well-maintained home with tools and landscaping"
+            />
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="services" class="p-3">
+          <p class="text-uppercase" id="small-text">Our Services</p>
+          <h2>Practical help for the jobs that pile up.</h2>
+          <!-- TODO: Convert these to Bootstrap Cards and use the responsive grid. -->
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <article>
+              <div class="col">
+              <div class="card p-2">
+              <img
+                src="images/repair.svg" class="card-image-top"
+                alt="Illustration of a wrench and screwdriver representing home repairs"
+              />
+                <p class="bs5-card-subtitle">Home Repair</p>
+                <h3 class="card-title">Fix &amp; Repair</h3>
+                <p class="card-text">
+                  Doors that stick, drywall that needs attention, loose
+                  hardware, minor carpentry, and the growing list of things you
+                  keep meaning to fix.
+                </p>
+                <div class="card-footer">
+                <small><a href="#contact" style="color: black;">Ask about repairs</a></small>
+                </div>
+                </div>
+            </article>
+            <article>
+              <div class="col">
+              <div class="card p-2">
+              <img
+                src="images/refresh.svg" class="card-image-top"
+                alt="Illustration of a paint roller and brush representing home refresh projects"
+              />
+                <p class="bs5-card-subtitle">Refresh Projects</p>
+                <h3 class="card-title">Paint &amp; Refresh</h3>
+                <p class="card-text">
+                  Small-room painting, trim touch-ups, fixture swaps, hardware
+                  updates, and simple improvements that make a tired space feel
+                  finished again.
+                </p>
+                  <div class="card-footer">
+                   <small><a href="#contact" style="color: black;">Plan a refresh</a></small>
+                  </div>
+              </div>
+           </div>
+            </article>
+
+            <article>
+               <div class="col">
+              <div class="card p-2">
+              <img
+                src="images/outdoor.svg" class="card-image-top"
+                alt="Illustration of a plant and garden tools representing outdoor maintenance"
+              />
+              <div>
+                <p class="bs5-card-subtitle">Outdoor Care</p>
+                <h3 class="card-title">Patio &amp; Exterior</h3>
+                <p class="card-text">
+                  Seasonal cleanup, patio maintenance, minor fence repairs,
+                  pressure washing, and practical outdoor projects.
+                </p>
+                <div class="card-footer"><small>
+                <a href="#contact" style="text-decoration: none; color:black;">Discuss outdoor work</a>
+                </small></div>
+              </div>
+              </div>
+            </article>
+        </div>
+        </div>
+      </section>
+     
+
+      <section id="process" class="p-4">
+      <div class="container-fluid">
+      <div class="row">
+        <div class="col">
+           <p class="text-uppercase" id="small-text">How It Works</p>
+            <h2>
+              Clear scope. Clear schedule. No disappearing contractor act.
+            </h2>
+            <p>
+              We keep smaller home projects organized with a simple three-step
+              process so you know what is happening, what it costs, and what
+              comes next.
+            </p></div>
+          <!-- TODO: Use Bootstrap grid and utilities. A List Group is optional. -->
+        <div class="col">
+          <ol class="list-group">
+            <li class="list-group-item justify-content-between align-items-end">
+              <strong>1. Tell us what needs attention.</strong>
+              <span>Send photos and a short description of the project.</span>
+            </li>
+            <li class="list-group-item justify-content-between align-items-end">
+              <strong>2. Confirm the plan.</strong>
+              <span
+                >We clarify scope, timing, and expected cost before work
+                begins.</span
+              >
+            </li>
+            <li class="list-group-item justify-content-between align-items-end">
+              <strong>3. Get it off the list.</strong>
+              <span
+                >Our team completes the agreed work and confirms the final
+                result with you.</span
+              >
+            </li>
+          </ol>
+          </div>
+        </div>
+        </div>
+      </section>
+        </div>
+      <section id="about" class="p-4">
+        <!-- TODO: Use Bootstrap grid classes for this image/content split. -->
+     <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+            <img
+              src="images/team.svg" class="rounded"
+              alt="Illustration of two Cedar and Stone team members standing beside a work van"
+            />
+          </div>
+            <div class="col">
+            <p id="small-text">Why Cedar &amp; Stone</p>
+            <h2>The point is to make home ownership easier.</h2>
+            <p>
+              Cedar &amp; Stone was built around the kind of work that is too
+              small for a major contractor but too important to ignore.
+            </p>
+            <p>
+              We focus on communication, realistic scheduling, and doing the
+              agreed work well—without turning every repair into a renovation
+              project.
+            </p>
+            <ul>
+              <li>Locally owned</li>
+              <li>Clear project scopes</li>
+              <li>Respectful in-home service</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+      </section>
+     
+      <section id="contact" class="p-2">
+      <div class="container-fluid">
+      <div class="row">
+          <div class="col">
+            <p id="small-text">Ready to clear a few things off the list?</p>
+            <h2>Tell us what your home needs.</h2>
+            <p>
+              Send us a short description of the project and we will let you
+              know whether Cedar &amp; Stone is a good fit.
+            </p>
+          </div>
+          <div class="col">
+            <p><strong>Cedar &amp; Stone Home Services</strong></p>
+            <p>San Antonio, Texas</p>
+            <p><a href="mailto:hello@example.com">hello@example.com</a></p>
+            <p>(210) 555-0126</p>
+            <a href="mailto:hello@example.com">Request a consultation</a>
+          </div>
+        </div>
+      </section>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer text-white p-1">
+        <p class="text-uppercase m-2"><strong>Cedar &amp; Stone Home Services</strong></p>
+        <p class="m-2">Reliable help for the home you actually live in.</p>
+      </div>
+    </footer>
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
