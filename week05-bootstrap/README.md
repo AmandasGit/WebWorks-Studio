@@ -131,7 +131,7 @@ I didn't need to rebuild the navbar, as bootstrap provides plenty of options. I 
 
 ## Live Site
 
-[Add your published GitHub Pages URL here.]
+https://amandasgit.github.io/WebWorks-Studio/week05-bootstrap/
 
 ## Final Reminder
 
