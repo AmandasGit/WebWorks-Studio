@@ -31,6 +31,7 @@ Alot of clickable objects on landing plate.
 **User Impact:**  
 [How could this affect Maya's task?]
 Could cause a difficulty for her to focus on the task at hand.
+
 **Principle:**  
 [Usability/accessibility principle.]
 A cta button could change the user flow and increase accessability and clarity.
@@ -61,7 +62,7 @@ This could mildly harm the usability of the site. Improving this could potential
 Low : Could cause minor issues.
 
 **Recommendation:**
-add a way to identify, like a location marker next to the text of how far away it is.
+add a way to identify, like a location marker next to the text of how far away it is. Alternatively, we could seperate the distances from each other.
 
 ### Finding 3
 
@@ -72,16 +73,16 @@ More info hyperlink is bright blue, and is a sterotypical hyperlink
 Appears with the trail information.
 
 **User Impact:**
-May cause friction due to lack of visual aid unlike the rest of the page. This would resort to negative impact on the user flow.
+May cause friction due to lack of visual aid unlike the rest of the page. This would resort to negative impact on the user flow. leading to upsetting the user.
 
 **Principle:**
-Improve consistency in the design of the page,
+Improve consistency in the design of the page.
 
 **Priority:**
 Medium : it is notivably different and will cause confusion
 
 **Recommendation:**
-redesigning of the link to fit the page design.
+redesigning of the link to fit the page design. Improving this could lead to the webpage being considered more trustworthy than before.
 
 ### Finding 4
 
@@ -111,13 +112,13 @@ Lack of consistent color theme.
 the header and footer are different colors, the plan your hike button at the bottom is an orange color that came out of no where.
 
 **User Impact:**
-will cause the user to believe we are unorangized and messy.
+will cause the user to believe we are unorangized and messy. leading to the user getting distracted and leaving site for a competitor.
 
 **Principle:**
 A consistant color theme provides user with clarity, more accessability and helps gain trust from our users.
 
 **Priority:**
-Medium
+Medium :
 **Recommendation:**
 redesign to make it a more appropriate design for our users.
 
