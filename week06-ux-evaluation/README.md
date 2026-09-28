@@ -33,7 +33,7 @@ Alot of clickable objects on landing plate.
 make it harder to focus on planning
 **Principle:**  
 [Usability/accessibility principle.]
-A cta button could change the user flow and increase accessability.
+A cta button could change the user flow and increase accessability and clarity.
 
 **Priority:** Low / Medium / High
 Medium : can be distracting for users.
@@ -55,7 +55,8 @@ Appears with the trail information.
 could potentially confuse the hiker on the length of the trail.
 
 **Principle:**
-could mildly harm the usability of the site
+could mildly harm the usability of the site, improving this could potentially improve error prevention.
+
 **Priority:**
 Low : causes minor problem
 
@@ -71,30 +72,54 @@ More info hyperlink is bright blue, and is a sterotypical hyperlink
 Appears with the trail information.
 
 **User Impact:**
-Lack of visual que to impact the user flow.
+May cause friction due to lack of visual aid unlike the rest of the page, resorting to negative impact on the user flow.
+
 **Principle:**
+Improve consistency in the design of the page,
 
 **Priority:**
+Medium : it is notivably different and will cause confusion
 
 **Recommendation:**
+redesigning of the link to fit the page design.
 
 ### Finding 4
 
-**Observation:**  
-**Evidence:**  
-**User Impact:**  
-**Principle:**  
-**Priority:**  
+**Observation:**
+uneven margins between the cards, the trail text and the before you go section.
+
+**Evidence:**
+When in full screen visit the more indepth trail information section, you'll quickly notice the margin difference located on the left side.
+
+**User Impact:**
+could be distracting for users, distrupts the flow of the page.
+
+**Principle:**
+Improving would cause the consistency of a full browser screen. however, when converted to mobile screen view it looks fine, with the correct margin look.
+
+**Priority:**
+Medium : create noticable/visible difficulty when following the flow of the website.
 **Recommendation:**
+reducing the margin in this area to match the site design.
 
 ### Finding 5
 
-**Observation:**  
-**Evidence:**  
-**User Impact:**  
-**Principle:**  
-**Priority:**  
+**Observation:**
+Lack of consistent color theme.
+
+**Evidence:**
+the header and footer are different colors, the plan your hike button at the bottom is an orange color that came out of no where.
+
+**User Impact:**
+will cause the user to believe we are unorangized and messy.
+
+**Principle:**
+A consistant color theme provides user with clarity, more accessability and helps gain trust from our users.
+
+**Priority:**
+Medium
 **Recommendation:**
+redesign to make it a more appropriate design for our users.
 
 ---
 
@@ -102,9 +127,9 @@ Lack of visual que to impact the user flow.
 
 Identify the three findings that should move forward into Week 7.
 
-1. [Priority]
-2. [Priority]
-3. [Priority]
+1. [Finding #1, cutting back on clickables and getting a primary cta button]
+2. [Finding # ]
+3. [Finding #5, improve the page design to be more accessable with the use of colors.]
 
 For each, briefly explain why it matters to Maya's primary task.
 
