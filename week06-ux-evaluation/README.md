@@ -30,13 +30,13 @@ Alot of buttons and clickable objects on the landing page.
 Alot of clickable objects on landing plate.
 **User Impact:**  
 [How could this affect Maya's task?]
-make it harder to focus on planning
+Could cause a difficulty for her to focus on the task at hand.
 **Principle:**  
 [Usability/accessibility principle.]
 A cta button could change the user flow and increase accessability and clarity.
 
 **Priority:** Low / Medium / High
-Medium : can be distracting for users.
+Medium : Due to it being a distraction for her to focus.
 
 **Recommendation:**  
 [Describe the improvement at a high level. Do not design the final solution yet.]
@@ -52,13 +52,13 @@ does not identify which is the distance from the trail or the length of the trai
 Appears with the trail information.
 
 **User Impact:**
-could potentially confuse the hiker on the length of the trail.
+could potentially confuse the hiker on the length of the trail. This is due to not being able to differentiate the distance in the card information.
 
 **Principle:**
-could mildly harm the usability of the site, improving this could potentially improve error prevention.
+This could mildly harm the usability of the site. Improving this could potentially improve error prevention.
 
 **Priority:**
-Low : causes minor problem
+Low : Could cause minor issues.
 
 **Recommendation:**
 add a way to identify, like a location marker next to the text of how far away it is.
@@ -72,7 +72,7 @@ More info hyperlink is bright blue, and is a sterotypical hyperlink
 Appears with the trail information.
 
 **User Impact:**
-May cause friction due to lack of visual aid unlike the rest of the page, resorting to negative impact on the user flow.
+May cause friction due to lack of visual aid unlike the rest of the page. This would resort to negative impact on the user flow.
 
 **Principle:**
 Improve consistency in the design of the page,
@@ -92,7 +92,7 @@ uneven margins between the cards, the trail text and the before you go section.
 When in full screen visit the more indepth trail information section, you'll quickly notice the margin difference located on the left side.
 
 **User Impact:**
-could be distracting for users, distrupts the flow of the page.
+uneven margins could be distracting for users, distrupts the flow of the page. This could cause her to leave the page and seek a competitor.
 
 **Principle:**
 Improving would cause the consistency of a full browser screen. however, when converted to mobile screen view it looks fine, with the correct margin look.
