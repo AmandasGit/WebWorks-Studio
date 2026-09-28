@@ -127,9 +127,9 @@ redesign to make it a more appropriate design for our users.
 
 Identify the three findings that should move forward into Week 7.
 
-1. [Finding #1, cutting back on clickables and getting a primary cta button]
-2. [Finding # ]
-3. [Finding #5, improve the page design to be more accessable with the use of colors.]
+1. [Finding #1, cutting back on clickables and getting a primary cta button. Would allow it to start her user flow faster and easier,]
+2. [Finding #4, Fixing the inconsistent margin distance. This could confuse her when she scrolls down for more information.]
+3. [Finding #5, improve the page color theme, to make it more accessable. The current colors used are all different, with this she'll be distracted, or believe the site to be untrustworthy.]
 
 For each, briefly explain why it matters to Maya's primary task.
 
