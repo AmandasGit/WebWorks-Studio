@@ -59,4 +59,4 @@ I have the webpage listening for click, not onclick, meaning it's only waiting f
 
 ## Live Site
 
-[Add GitHub Pages URL here.]
+https://amandasgit.github.io/WebWorks-Studio/week08-javascript/
