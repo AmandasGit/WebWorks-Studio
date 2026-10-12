@@ -47,8 +47,7 @@ difficultyButton.addEventListener("click", () => {
 const hikeFrom = document.querySelector("#hike-form");
 const trail = document.querySelector("#trail");
 const formFeedback = document.querySelector("#form-feedback");
-const experience = document.querySelector("#experience");
-const hours = document.querySelector("#hours");
+
 // TODO 7:
 // Listen for form submission.
 hikeFrom.addEventListener("submit", (event) => {
@@ -66,6 +65,8 @@ hikeFrom.addEventListener("submit", (event) => {
 
   // TODO 10:
   // Read the values you need from the form.
+  const experience = document.querySelector("#experience");
+  const hours = document.querySelector("#hours");
 
   // TODO 11:
   // Display useful confirmation/feedback in #form-feedback.
@@ -79,4 +80,4 @@ hikeFrom.addEventListener("submit", (event) => {
 // - partially completed form : doesn't submit
 // - valid form : shows the formFeedback properly
 // - keyboard-only interaction : works properly at the moment
-// - browser console
+// - browser console :
